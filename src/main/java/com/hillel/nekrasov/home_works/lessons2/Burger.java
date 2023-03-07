@@ -1,34 +1,34 @@
 package com.hillel.nekrasov.home_works.lessons2;
 
 public class Burger {
- //   String pan;
- //   String meat;
- //   String cheese;
- //   String greens;
- //   String mayonnaise;
- //   String doubleMeat;
-
-
-  String ordinary;
-
-
-    String diet;
+    String pan;
+    String meat;
+    String cheese;
+    String greens;
+    String mayonnaise;
     String doubleMeat;
-   public Burger(String ordinary) {
-        this.ordinary = ordinary;
-        System.out.println("pan,meat,cheese,greens,mayonnaise");
-    }
 
-    public static void BurgerMain(String[] args) {
-        Burger ordinary = new Burger("обычный :pan,meat,cheese,greens,mayonnaise");
-        System.out.println(ordinary);
-     //   burger.ordinary = "pan,meat,cheese,greens,mayonnaise";
-     //   burger.diet = "pan,meat,cheese,greens";
-     //   burger.doubleMeat = "pan,meatMeat,mayonnaise,cheese,greens";
-     //   System.out.println("ваш заказ: " + burger.ordinary);
-     //   System.out.println("ваш заказ: " + burger.diet);
-     //   System.out.println("ваш заказ: " + burger.doubleMeat);
+    public Burger(String pan, String meat, String cheese, String greens, String mayonnaise, String doubleMeat) {
+        this.pan = pan;
+        this.meat = meat;
+        this.cheese = cheese;
+        this.greens = greens;
+        this.mayonnaise = mayonnaise;
+        this.doubleMeat = doubleMeat;
 
     }
 
-}
+        public void  ordinary (){
+            System.out.println("Burger ordinary: pan,  meat,  cheese,  greens,  mayonnaise");
+               }
+
+        public void diet (){
+            System.out.println("Burger diet: pan,  meat,  cheese,  greens");
+             }
+
+        public void doubleMeat (){
+            System.out.println("Burger double Meat: pan,  double meat,  cheese,  greens,  mayonnaise");
+              }
+
+    }
+

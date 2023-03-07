@@ -1,0 +1,12 @@
+package com.hillel.nekrasov.home_works.lessons2;
+
+public class BurgerMain {
+    public static void main(String[] args) {
+        Burger burger = new Burger("pan", "meat", "cheese", "greens", "mayonnaise", "doubleMeat");
+        System.out.println();
+        burger.ordinary();
+        burger.diet();
+        burger.doubleMeat();
+    }
+}
+
