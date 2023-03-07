@@ -16,8 +16,6 @@ public class Main {
 
         user2.printAccountInfo();
 
-        // Изменение параметров для двух пользователей
-
         user1.setSurname("Pedro");
 
         user1.setWeight(75);
@@ -33,8 +31,6 @@ public class Main {
         user2.setPressure(118);
 
         user2.setSteps(10000);
-
-        // Печать информации о пользователях
 
         user1.printAccountInfo();
 
