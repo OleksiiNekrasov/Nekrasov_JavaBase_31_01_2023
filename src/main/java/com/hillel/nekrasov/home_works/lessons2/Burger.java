@@ -1,15 +1,15 @@
 package com.hillel.nekrasov.home_works.lessons2;
 
 public class Burger {
-    String pan;
+    String bun;
     String meat;
     String cheese;
     String greens;
     String mayonnaise;
     String doubleMeat;
 
-    public Burger(String pan, String meat, String cheese, String greens, String mayonnaise, String doubleMeat) {
-        this.pan = pan;
+    public Burger(String bun, String meat, String cheese, String greens, String mayonnaise, String doubleMeat) {
+        this.bun = bun;
         this.meat = meat;
         this.cheese = cheese;
         this.greens = greens;
@@ -19,15 +19,15 @@ public class Burger {
     }
 
         public void  ordinary (){
-            System.out.println("Burger ordinary: pan,  meat,  cheese,  greens,  mayonnaise");
+            System.out.println("Burger ordinary: bun,  meat,  cheese,  greens,  mayonnaise");
                }
 
         public void diet (){
-            System.out.println("Burger diet: pan,  meat,  cheese,  greens");
+            System.out.println("Burger diet: bun,  meat,  cheese,  greens");
              }
 
         public void doubleMeat (){
-            System.out.println("Burger double Meat: pan,  double meat,  cheese,  greens,  mayonnaise");
+            System.out.println("Burger double Meat: bun,  double meat,  cheese,  greens,  mayonnaise");
               }
 
     }
